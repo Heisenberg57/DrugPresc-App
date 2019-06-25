@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gaga"
+    tools:context=".DropAlarm"
+    android:orientation="vertical">
+
+
+
+        <TimePicker
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tp3"/>
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/bdrop2"
+        android:text="Set Reminder"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+
+
+</android.support.v7.widget.LinearLayoutCompat>

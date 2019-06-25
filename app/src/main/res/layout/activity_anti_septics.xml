@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AntiSeptics"
+    android:orientation="vertical"
+    android:background="@drawable/gaga">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/astitle"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:src="@drawable/dba"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="200dp"
+            android:gravity="center_vertical"
+            android:layout_height="50dp"
+            android:text="Title of Antiseptic/Cream"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"
+           />
+        <EditText
+            android:id="@+id/titanti"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:background="@android:color/white"/>
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="200dp"
+            android:gravity="center_vertical"
+            android:layout_height="50dp"
+            android:text="Quantity Antiseptic/Cream"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"
+            />
+        <EditText
+            android:id="@+id/quaanti"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:background="@android:color/white"/>
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="200dp"
+            android:gravity="center_vertical"
+            android:layout_height="50dp"
+            android:text="Bandage Type"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"
+            />
+        <EditText
+            android:id="@+id/bananti"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:background="@android:color/white"/>
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="200dp"
+            android:gravity="center_vertical"
+            android:layout_height="50dp"
+            android:text="Antiseptic/Cream Storage"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"
+            />
+        <EditText
+            android:id="@+id/stanti"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:background="@android:color/white"/>
+
+
+
+
+
+    </LinearLayout>
+   <View
+       android:layout_width="wrap_content"
+       android:layout_height="20dp"></View>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Store"
+        android:id="@+id/sr2"
+        android:background="@android:color/holo_blue_bright"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reminder"
+        android:id="@+id/r"
+       />
+
+
+</android.support.v7.widget.LinearLayoutCompat>

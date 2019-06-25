@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "729517427540",
+    "firebase_url": "https://drugprescdata.firebaseio.com",
+    "project_id": "drugprescdata",
+    "storage_bucket": "drugprescdata.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729517427540:android:e83df3d8dc3144f2",
+        "android_client_info": {
+          "package_name": "com.example.drugpresc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729517427540-3vasrtv6a34idn50q6ilk1ldvsg5rqqr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.drugpresc",
+            "certificate_hash": "018369387811a4d993ad80703ca53cbe875157ab"
+          }
+        },
+        {
+          "client_id": "729517427540-jth4mp60ajgbbq203oe3cnpka6pfak1q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmeXaMFUd8ktsOk_-HMdmwmGE-EmJJ33Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "729517427540-jth4mp60ajgbbq203oe3cnpka6pfak1q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

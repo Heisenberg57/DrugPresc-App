@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/gaga"
+    android:layout_weight="10"
+    android:layout_marginLeft="10dp"
+    >
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            >
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:src="@drawable/drugpresctitle"/>
+
+            <ImageButton
+                android:layout_height="70dp"
+                android:layout_width="70dp"
+                android:id="@+id/b1"
+                android:src="@android:drawable/ic_menu_manage"/>
+        </TableRow>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:src="@drawable/dp"/>
+        <View
+            android:layout_height="9dp"></View>
+     <LinearLayout
+         android:orientation="horizontal">
+         <ImageButton
+             android:layout_width="80dp"
+             android:layout_height="80dp"
+             android:id="@+id/bpresc"
+             android:src="@drawable/prescformlogo"
+             android:layout_marginLeft="22dp"/>
+         <ImageButton
+             android:layout_width="80dp"
+             android:layout_height="80dp"
+             android:id="@+id/bdlist"
+             android:src="@drawable/druglistlogo"
+             android:layout_marginLeft="25dp"/>
+         <ImageButton
+             android:layout_width="80dp"
+             android:layout_height="80dp"
+             android:id="@+id/bdiets"
+             android:src="@drawable/diet"
+             android:layout_marginLeft="22dp"/>
+
+
+     </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="22dp"
+                android:text="Drug Reminder"
+                android:fontFamily="sans-serif-black"
+
+                android:textColor="@android:color/white" />
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:textColor="@android:color/white"
+                android:text="Drug List"
+                android:fontFamily="sans-serif-black"
+
+
+
+                android:layout_marginLeft="22dp"/>
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:textColor="@android:color/background_dark"
+                android:text="Diet and Nutrition"
+                android:background="@android:color/white"
+
+                android:fontFamily="sans-serif-black"
+
+                android:layout_marginLeft="28dp"/>
+
+
+
+        </LinearLayout>
+        <View
+            android:layout_height="20dp">
+
+        </View>
+        <LinearLayout
+            android:orientation="horizontal">
+            <ImageButton
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/banti"
+                android:src="@drawable/antiseptic"
+                android:layout_marginLeft="22dp"
+                />
+            <ImageButton
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/bdrops"
+                android:src="@drawable/drops"
+                android:layout_marginLeft="25dp"/>
+            <ImageButton
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/bsyrups"
+                android:src="@drawable/syrups"
+                android:layout_marginLeft="25dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:textColor="@android:color/white"
+                android:text="Antiseptics  "
+                android:fontFamily="sans-serif-black"
+
+                android:layout_marginLeft="22dp"/>
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:textColor="@android:color/white"
+                android:text="Drops        "
+                android:fontFamily="sans-serif-black"
+                android:background="@android:color/background_dark"
+                android:layout_marginLeft="22dp"/>
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:textColor="@android:color/white"
+                android:text="Syrups"
+                android:fontFamily="sans-serif-black"
+                android:background="@android:color/background_dark"
+                
+                android:layout_marginLeft="23dp"/>
+
+
+
+        </LinearLayout>
+
+
+    </TableLayout>
+
+</android.support.v7.widget.LinearLayoutCompat>

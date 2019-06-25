@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Druglistmain"
+    android:background="@drawable/gaga">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:src="@drawable/dltitle"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:src="@drawable/addb"
+            android:id="@+id/addb"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Add New Drug"
+            android:background="@android:color/white"
+            android:textColor="@android:color/background_dark"
+            android:gravity="center"
+            android:textSize="18dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:src="@drawable/daview"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/viewl"
+            android:text="See The List "
+            android:background="@android:color/holo_red_light"/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

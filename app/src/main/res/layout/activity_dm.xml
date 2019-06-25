@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gaga"
+    tools:context=".DietMain">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:src="@drawable/diettitle"/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:src="@drawable/addb"
+            android:id="@+id/addd"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Add Diet Details"
+            android:background="@android:color/white"
+            android:textColor="@android:color/background_dark"
+            android:gravity="center"
+            android:textSize="18dp"/>
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:src="@drawable/dielist"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/viewld"
+            android:text="See The List "
+            android:background="@android:color/holo_red_light"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

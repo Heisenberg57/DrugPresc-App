@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Diet"
+        android:layout_weight="20"
+        android:textSize="20sp"
+        android:id="@+id/dla1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Vitamin"
+        android:layout_weight="20"
+        android:textSize="20sp"
+        android:id="@+id/dla2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Protein"
+        android:layout_weight="20"
+        android:textSize="20sp"
+        android:id="@+id/dla3"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Carbs"
+        android:layout_weight="20"
+        android:textSize="20sp"
+        android:id="@+id/dla4"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Fats"
+        android:layout_weight="20"
+        android:textSize="20sp"
+        android:id="@+id/dla5"/>
+
+
+
+</LinearLayout>

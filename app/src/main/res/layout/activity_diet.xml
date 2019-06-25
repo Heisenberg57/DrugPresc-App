@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Diet"
+    android:orientation="vertical"
+    android:background="@drawable/gaga">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/diettitle"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:src="@drawable/df"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="200dp"
+            android:gravity="center_vertical"
+            android:layout_height="50dp"
+            android:text="Preferred Diet "
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"
+            />
+        <EditText
+            android:id="@+id/pd"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:background="@android:color/white"/>
+
+
+
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"></View>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="200dp"
+            android:gravity="center_vertical"
+            android:layout_height="50dp"
+            android:text="Food To Avoid"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"
+            />
+        <EditText
+            android:id="@+id/vit"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:background="@android:color/white"/>
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"></View>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="200dp"
+            android:gravity="center_vertical"
+            android:layout_height="50dp"
+            android:text="Drinks To Avoid  "
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"
+            />
+        <EditText
+            android:id="@+id/pro"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:background="@android:color/white"/>
+
+
+
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"></View>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="200dp"
+            android:gravity="center_vertical"
+            android:layout_height="70dp"
+            android:text="Calorie Intake"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"
+            />
+        <EditText
+            android:id="@+id/carbs"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:background="@android:color/white"/>
+
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"></View>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="200dp"
+            android:gravity="center_vertical"
+            android:layout_height="50dp"
+            android:text="Interactions"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"
+            />
+        <EditText
+            android:id="@+id/fats"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:background="@android:color/white"/>
+
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"></View>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/diet"
+        android:text="Store"
+        android:background="@android:color/holo_orange_light"
+        
+        />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/viewdiet"
+            android:text="View Diet Details"
+            android:background="@android:color/holo_orange_light"
+
+            />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

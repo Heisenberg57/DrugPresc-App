@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Drug Title"
+        android:layout_weight="20"
+        android:textSize="20sp"
+        android:id="@+id/la1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Drug Type"
+        android:layout_weight="20"
+        android:textSize="20sp"
+        android:id="@+id/la2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Potency"
+        android:layout_weight="20"
+        android:textSize="20sp"
+        android:id="@+id/la3"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Impact"
+        android:layout_weight="20"
+        android:textSize="20sp"
+        android:id="@+id/la4"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Side Effects"
+        android:layout_weight="20"
+        android:textSize="20sp"
+        android:id="@+id/la5"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlarmScreen1"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"></View>
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:text="ALERT"
+        android:textSize="70dp"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_marginLeft="50dp"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"></View>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="It's Time To Take Prescribed Drug!!!"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:id="@+id/eal1"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"></View>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="In Quantity Of!!!"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"></View>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:id="@+id/eal2"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"></View>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/elab"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"></View>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="For Frequency Of!!!"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:id="@+id/eal3"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Me Details"
+        android:id="@+id/ba"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">DrugPresc</string>
+    <string-array name="DrugType">
+        <item>Sedatives</item>
+        <item>Benzodiazepines</item>
+        <item>Amphetamines</item>
+        <item>OpiatePainkillers</item>
+        <item>Depressants</item>
+    </string-array>
+    <string-array name="DrugPotency">
+        <item>Extreme</item>
+        <item>High</item>
+        <item>Moderate</item>
+        <item>Minimum</item>
+        <item>Mild</item>
+
+
+    </string-array>
+    <string-array name="Impact">
+        <item>Positive</item>
+        <item>Neutral</item>
+        <item>Negative</item>
+
+    </string-array>
+    <string name="title_activity_list_view3">ListView3</string>
+</resources>

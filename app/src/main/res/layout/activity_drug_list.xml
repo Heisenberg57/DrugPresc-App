@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DrugList"
+    android:orientation="vertical"
+    android:background="@drawable/gaga">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/dltitle"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:src="@drawable/dl"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="200dp"
+            android:gravity="center_vertical"
+            android:layout_height="30dp"
+            android:text="Title Of The Drug"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black" />
+        <EditText
+            android:id="@+id/drugt"
+            android:layout_width="190dp"
+            android:layout_height="30dp"
+            android:background="@android:color/white"/>
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"></View>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="200dp"
+            android:gravity="center_vertical"
+            android:layout_height="30dp"
+            android:text="Drug Type"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"
+            />
+
+        <Spinner
+            android:id="@+id/Stype1"
+            android:layout_width="190dp"
+            android:layout_height="30dp"
+            android:background="@android:color/white"
+            android:entries="@array/DrugType"></Spinner>
+
+    </LinearLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"></View>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="200dp"
+            android:gravity="center_vertical"
+            android:layout_height="30dp"
+            android:text="Drug Potency"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"
+            />
+
+        <Spinner
+            android:id="@+id/potency"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:entries="@array/DrugPotency"></Spinner>
+
+
+
+
+    </LinearLayout>
+ <View
+     android:layout_width="wrap_content"
+     android:layout_height="20dp"></View>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="200dp"
+            android:gravity="center_vertical"
+            android:layout_height="30dp"
+            android:text="Impact"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"
+            />
+
+        <Spinner
+            android:id="@+id/impact"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:background="@android:color/white"
+            android:entries="@array/Impact"
+            android:popupBackground="@android:color/white"></Spinner>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"></View>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="200dp"
+            android:gravity="center_vertical"
+            android:layout_height="30dp"
+            android:text="Side Effects"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"
+            />
+        <EditText
+            android:id="@+id/sideeffects"
+            android:layout_width="190dp"
+            android:layout_height="30dp"
+            android:background="@android:color/white"/>
+
+
+
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"></View>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="200dp"
+            android:gravity="center_vertical"
+            android:layout_height="30dp"
+            android:text="OTC Availibility"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"
+            />
+        <EditText
+            android:id="@+id/avail"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:background="@android:color/white"/>
+
+
+    </LinearLayout>
+    
+    
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/list"
+        android:text="Store"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+
+        android:background="@android:color/holo_orange_dark"/>
+
+    </LinearLayout>
+
+</ScrollView>
