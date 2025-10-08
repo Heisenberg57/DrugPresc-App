@@ -57,4 +57,10 @@ Multi-language support.
 
 
 
+Author 
+-----
+Suyog Nimbre
+heisenbergnimbre@gmail.com
+Heisenberg57
+
 
