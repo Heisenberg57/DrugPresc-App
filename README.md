@@ -16,3 +16,12 @@ Features
 - Access dosage schedules, intake frequency, and notes from doctors.
 - Receive automated reminders for medicine intake.
 - Get alerts for missed doses.
+
+Tech Stack
+-----------
+- **Language:** Java / 
+- **Platform:** Android (SDK 21+)
+- **Architecture:** MVC 
+- **Database:** SQLite 
+- **Notifications:** Android AlarmManager / WorkManager
+- **UI:** Material Design Components
