@@ -41,4 +41,19 @@ Installation & Setup
 5. Run the app:
  bash  Run ▶
 
+Folder Structure
+----------------
+DrugPresc-App/
+ ├── app/
+ │   ├── src/
+ │   │   ├── main/
+ │   │   │   ├── java/       # App source code
+ │   │   │   ├── res/        # Layouts, Drawables, Values
+ │   │   │   └── AndroidManifest.xml
+ │   └── build.gradle
+ ├── build.gradle
+ ├── settings.gradle
+ └── gradle/                 # Gradle wrapper files
+
+
 
