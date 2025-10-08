@@ -32,3 +32,13 @@ Installation & Setup
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/DrugPresc-App.git
+2. Open the project in Android Studio.
+
+3. Let Gradle sync the dependencies.
+
+4. Connect your Android device or use an emulator.
+
+5. Run the app:
+ bash  Run ▶
+
+
