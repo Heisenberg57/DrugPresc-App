@@ -43,17 +43,18 @@ Installation & Setup
 
 Folder Structure
 ----------------
-DrugPresc-App/
- ├── app/
- │   ├── src/
- │   │   ├── main/
- │   │   │   ├── java/       # App source code
- │   │   │   ├── res/        # Layouts, Drawables, Values
- │   │   │   └── AndroidManifest.xml
- │   └── build.gradle
- ├── build.gradle
- ├── settings.gradle
- └── gradle/                 # Gradle wrapper files
+<img width="639" height="282" alt="image" src="https://github.com/user-attachments/assets/3b11f0c2-8037-4364-b4e1-059c0abfe511" />
+
+Future Enhancements
+-------------------
+Integration with cloud database (Firebase / Supabase).
+
+Doctor-Patient chat functionality.
+
+Smart analytics for medication adherence.
+
+Multi-language support.
+
 
 
 
